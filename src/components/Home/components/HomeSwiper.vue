@@ -30,18 +30,16 @@
 </script>
 
 <style lang="stylus" scoped>
-  .swiper >>> .swiper-pagination-bullets
-    bottom: 15px
   .swiper >>> .swiper-pagination-bullet
     opacity: 0.5
   .swiper >>> .swiper-pagination-bullet-active
     background: #fff
-    opacity: 1 
+    opacity: 1
   .swiper
     overflow: hidden
     width: 100%
     height: 0
-    padding-bottom: 31.25%
+    padding-bottom: 28%
     .swiper-img
       width: 100%
 </style>

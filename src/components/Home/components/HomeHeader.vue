@@ -6,7 +6,7 @@
       输入城市/景点/游玩主题
     </div>
     <span class="header-right">
-      城市
+      深圳
       <span class="iconfont down-icon">&#xe65c;</span>
     </span>
   </div>
