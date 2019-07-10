@@ -67,8 +67,7 @@
   .recommend
     .space
       height .2rem
-      background #cccccc
-      opacity 0.4
+      background #f5f5f5
     .tittle
       font-size .32rem
       padding .24rem 0
