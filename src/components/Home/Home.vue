@@ -1,10 +1,10 @@
 <template>
     <div>
-      <home-header></home-header>
-      <home-swiper></home-swiper>
-      <home-icon></home-icon>
-      <home-recommend></home-recommend>
-      <weekend></weekend>
+      <home-header :city="city"></home-header>
+      <home-swiper :swiperList="swiperList"></home-swiper>
+      <home-icon :iconList="iconList"></home-icon>
+      <home-recommend :recommendList="recommendList"></home-recommend>
+      <weekend :weekendList="weekendList"></weekend>
     </div>
 </template>
 
@@ -23,10 +23,25 @@
         HomeRecommend,
         Weekend
       },
+      data () {
+        return {
+          city: '',
+          swiperList: [],
+          iconList: [],
+          recommendList: [],
+          weekendList: []
+        }
+      },
       methods: {
         getHomeInfo () {
-          this.axios.get('/api/index').then((res)=>{
-            console.info(res)
+          this.axios.get('/api/indexInfo.json').then((res)=>{
+            const data = res.data
+
+            this.city = data.city
+            this.swiperList = data.swiperList
+            this.iconList = data.iconList
+            this.recommendList = data.recommendList
+            this.weekendList = data.weekendList
           })
         }
       },

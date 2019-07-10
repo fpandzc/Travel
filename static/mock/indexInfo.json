@@ -1,0 +1,113 @@
+{
+  "city": "深圳",
+  "swiperList": [
+    {
+      "id": "001",
+      "imgUrl": "http://mp-piao-admincp.qunarzz.com/mp_piao_admin_mp_piao_admin/admin/20197/5e7f9ad26e6b8a776781a4080fb913a3.jpg_750x200_83797280.jpg"
+    },
+    {
+      "id": "002",
+      "imgUrl": "http://mp-piao-admincp.qunarzz.com/mp_piao_admin_mp_piao_admin/admin/20193/b23a39921e8b78f38b61412d691d93ea.jpg_750x200_942ed7bd.jpg"
+    }
+  ],
+  "iconList": [
+    {
+      "id": "001",
+      "imgUrl": "http://img1.qunarzz.com/piao/fusion/1803/95/f3dd6c383aeb3b02.png",
+      "desc": "景点门票"
+    },
+    {
+      "id": "002",
+      "imgUrl": "http://img1.qunarzz.com/piao/fusion/1804/ff/fdf170ee89594b02.png",
+      "desc": "深圳游玩"
+    },
+    {
+      "id": "003",
+      "imgUrl": "http://img1.qunarzz.com/piao/fusion/1803/4d/a1eda1a2b8414302.png",
+      "desc": "暑期夜场"
+    },
+    {
+      "id": "004",
+      "imgUrl": "http://img1.qunarzz.com/piao/fusion/1803/50/26ffa31b56646402.png",
+      "desc": "海洋馆"
+    },
+    {
+      "id": "005",
+      "imgUrl": "http://mp-piao-admincp.qunarzz.com/mp_piao_admin_mp_piao_admin/admin/20194/bda58ffc3016edad84e656e8a94b0321.png",
+      "desc": "广州融创"
+    },
+    {
+      "id": "006",
+      "imgUrl": "http://img1.qunarzz.com/piao/fusion/1803/95/f3dd6c383aeb3b02.png",
+      "desc": "深圳动物园"
+    },
+    {
+      "id": "007",
+      "imgUrl": "http://img1.qunarzz.com/piao/fusion/1803/a6/6d97515091789602.png",
+      "desc": "世界之窗"
+    },
+    {
+      "id": "008",
+      "imgUrl": "http://img1.qunarzz.com/piao/fusion/1803/b6/37560ece9c62b502.png",
+      "desc": "东部华侨城"
+    },
+    {
+      "id": "009",
+      "imgUrl": "http://img1.qunarzz.com/piao/fusion/1803/3e/86314b2af03b7502.png",
+      "desc": "水上乐园"
+    },
+    {
+      "id": "010",
+      "imgUrl": "http://img1.qunarzz.com/piao/fusion/1803/b1/528a9e80403b8c02.png",
+      "desc": "玩转长隆"
+    }
+  ],
+  "recommendList": [
+    {
+      "imgUrl": "http://img1.qunarzz.com/sight/p0/1508/2e/d9363ce50a88c8c5ff5a138c67687cd4.water.jpg_200x200_1c15c8f5.jpg",
+      "name": "深圳野生动物园",
+      "price": "229.9"
+    },
+    {
+      "imgUrl": "http://img1.qunarzz.com/sight/p0/1907/92/924c05d7f374493ea3.img.png_200x200_e8f3e8d6.png",
+      "name": "深圳欢乐谷",
+      "price": "85"
+    },
+    {
+      "imgUrl": "http://img1.qunarzz.com/sight/p0/1905/e6/e683c8cf5e97ce03a3.img.jpg_200x200_4769276c.jpg",
+      "name": "世界之窗",
+      "price": "85"
+    },
+    {
+      "imgUrl": "http://img1.qunarzz.com/sight/p0/1507/64/34362835b4a219af8b36803d31a6380f.water.jpg_200x200_bc5c0452.jpg",
+      "name": "深圳小梅沙海洋世界",
+      "price": "99"
+    }
+  ],
+  "weekendList": [
+    {
+      "id": "001",
+      "imgUrl": "http://img1.qunarzz.com/sight/source/1811/15/66f14e0fd6fbb.jpg_r_640x214_5d69f21d.jpg",
+      "name": "清远周边逛",
+      "desc": "人人都有一双发现美的眼睛，身边的事物最熟悉不过，那你可曾发现了被人遗漏的美？"
+    },
+    {
+      "id": "002",
+      "imgUrl": "http://img1.qunarzz.com/sight/source/1811/b8/5d599bbdcf8b57.jpg_r_640x214_2ee055e3.jpg",
+      "name": "浮在海上的绿洲",
+      "desc": "南国滨海之城，避寒胜地，有暖暖的阳光，海风习习，吃着海鲜逛逛老街多惬意啊"
+    },
+    {
+      "id": "003",
+      "imgUrl": "http://img1.qunarzz.com/sight/source/1505/fa/ca65fde9677de2.jpg_r_640x214_4500e3ff.jpg",
+      "name": "深圳必打卡",
+      "desc": "来到深圳，你需要来这里签到"
+    },
+    {
+      "id": "004",
+      "imgUrl": "http://img1.qunarzz.com/sight/source/1602/88/bf120edeaea383.jpg_r_640x214_f8591f7b.jpg",
+      "name": "欢乐长隆",
+      "desc": "世界欢乐汇聚长隆，这里拥有多个大型游乐设备和精彩的演出，和小伙伴们一起感受刺激的体验"
+    }
+  ]
+}

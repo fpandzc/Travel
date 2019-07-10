@@ -24,42 +24,10 @@
 
 <script>
     export default {
-        name: "HomeRecommend",
-        data () {
-          return {
-            recommendList: [
-              {
-                imgUrl: 'http://img1.qunarzz.com/sight/p0/1508/2e/d9363ce50a88c8c5ff5a138c67687cd4.water.jpg_200x200_1c15c8f5.jpg',
-                name: '深圳野生动物园',
-                price: '99'
-              },{
-                imgUrl: 'http://img1.qunarzz.com/sight/p0/1508/2e/d9363ce50a88c8c5ff5a138c67687cd4.water.jpg_200x200_1c15c8f5.jpg',
-                name: '深圳野生动物园',
-                price: '99'
-              },{
-                imgUrl: 'http://img1.qunarzz.com/sight/p0/1508/2e/d9363ce50a88c8c5ff5a138c67687cd4.water.jpg_200x200_1c15c8f5.jpg',
-                name: '深圳野生动物园',
-                price: '99'
-              },{
-                imgUrl: 'http://img1.qunarzz.com/sight/p0/1508/2e/d9363ce50a88c8c5ff5a138c67687cd4.water.jpg_200x200_1c15c8f5.jpg',
-                name: '深圳野生动物园',
-                price: '99'
-              },{
-                imgUrl: 'http://img1.qunarzz.com/sight/p0/1508/2e/d9363ce50a88c8c5ff5a138c67687cd4.water.jpg_200x200_1c15c8f5.jpg',
-                name: '深圳野生动物园',
-                price: '99'
-              },{
-                imgUrl: 'http://img1.qunarzz.com/sight/p0/1508/2e/d9363ce50a88c8c5ff5a138c67687cd4.water.jpg_200x200_1c15c8f5.jpg',
-                name: '深圳野生动物园',
-                price: '99'
-              },{
-                imgUrl: 'http://img1.qunarzz.com/sight/p0/1508/2e/d9363ce50a88c8c5ff5a138c67687cd4.water.jpg_200x200_1c15c8f5.jpg',
-                name: '深圳野生动物园',
-                price: '99'
-              }
-            ]
-          }
-        }
+      name: "HomeRecommend",
+      props: {
+        recommendList: Array
+      }
     }
 </script>
 

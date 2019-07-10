@@ -6,7 +6,7 @@
       输入城市/景点/游玩主题
     </div>
     <span class="header-right">
-      深圳
+      {{city}}
       <span class="iconfont down-icon">&#xe65c;</span>
     </span>
   </div>
@@ -14,7 +14,10 @@
 
 <script>
     export default {
-        name: "HomeHeader"
+      name: "HomeHeader",
+      props: {
+        city: String
+      }
     }
 </script>
 
