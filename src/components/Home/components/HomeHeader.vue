@@ -5,10 +5,9 @@
       <span class="iconfont search-icon">&#xe63c;</span>
       输入城市/景点/游玩主题
     </div>
-    <span class="header-right">
-      {{city}}
+    <router-link class="header-right" to="/city" tag="span">{{city}}
       <span class="iconfont down-icon">&#xe65c;</span>
-    </span>
+    </router-link>
   </div>
 </template>
 
