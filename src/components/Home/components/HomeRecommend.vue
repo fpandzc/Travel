@@ -3,9 +3,9 @@
       <div class="space"></div>
       <div class="tittle">热门推荐</div>
       <div class="contents">
-        <div class="content-item b-1px-b"
-             v-for="(item,index) of recommendList"
-             :key="index">
+        <router-link  class="content-item b-1px-b"
+             v-for="item of recommendList"
+             :key="item.id" tag="div" :to="'/detail/' + item.id">
           <img class="item-logo"
                :src="item.imgUrl"
                alt="Travel img">
@@ -17,7 +17,7 @@
               <span class="price-text">起</span>
             </div>
           </div>
-        </div>
+        </router-link>
       </div>
     </div>
 </template>
@@ -42,7 +42,7 @@
       margin-left .2rem
     .contents
       width 100%
-      font-size .24px
+      font-size .24rem
       .content-item
         height 2.4rem
         display flex

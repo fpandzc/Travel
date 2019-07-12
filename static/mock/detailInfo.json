@@ -1,0 +1,70 @@
+{
+  "bannerInfo": {
+    "name": "深圳野生动物园(AAAA景区)",
+    "imgNum": 3,
+    "imgUrl": "http://img1.qunarzz.com/sight/p0/1508/2e/d9363ce50a88c8c5ff5a138c67687cd4.water.jpg_600x330_28bda6b0.jpg",
+    "swiperList": [
+      {
+        "id": "001",
+        "imgUrl": "http://img1.qunarzz.com/sight/p0/1508/2e/d9363ce50a88c8c5ff5a138c67687cd4.water.jpg_r_800x800_645880a7.jpg"
+      },
+      {
+        "id": "002",
+        "imgUrl": "http://img1.qunarzz.com/sight/p0/1508/bb/99407a4c2013eff56bb33c9e787bb2fd.water.jpg_r_800x800_e423bea4.jpg"
+      },
+      {
+        "id": "003",
+        "imgUrl": "http://img1.qunarzz.com/sight/p0/1508/44/c8fb5daa16f5f99f8201f323426b3516.water.jpg_r_800x800_e7642201.jpg"
+      }
+    ]
+  },
+  "detailList": [
+    {
+      "tittle": "大门票",
+      "list": [
+        {
+          "tittle": "成人票",
+          "price": "99"
+        },
+        {
+          "tittle": "学生票",
+          "price": "99"
+        },
+        {
+          "tittle": "儿童票",
+          "price": "99"
+        },
+        {
+          "tittle": "老人票",
+          "price": "99"
+        }
+      ]
+    },
+    {
+      "tittle": "亲子票",
+      "list": [
+        {
+          "tittle": "亲子票（1大1小）",
+          "price": "99"
+        },
+        {
+          "tittle": "家庭票（2大1小）",
+          "price": "99"
+        }
+      ]
+    },
+    {
+      "tittle": "年卡",
+      "list": [
+        {
+          "tittle": "亲子年卡（1大1小）",
+          "price": "99"
+        },
+        {
+          "tittle": "家庭年卡（2大1小）",
+          "price": "99"
+        }
+      ]
+    }
+  ]
+}
