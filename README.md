@@ -26,6 +26,7 @@
   在到根实例上注册store选项，通过调用$store.state取到需要的值。
   通过提交 mutation去修改state中的值。
 - axios
+  通过axios进行数据请求
 - 其他第三方库
   better-scroll 处理滚动区域的问题
   Swiper 轮播图的处理
