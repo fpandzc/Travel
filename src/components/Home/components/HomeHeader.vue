@@ -5,7 +5,7 @@
       <span class="iconfont search-icon">&#xe63c;</span>
       输入城市/景点/游玩主题
     </div>
-    <router-link class="header-right" to="/city" tag="span">{{city}}
+    <router-link class="header-right" to="/city" tag="span">{{this.city}}
       <span class="iconfont down-icon">&#xe65c;</span>
     </router-link>
   </div>
@@ -14,9 +14,14 @@
 <script>
     export default {
       name: "HomeHeader",
-      props: {
-        city: String
+      computed: {
+        city () {
+          return this.$store.state.city
+        }
       }
+      // props: {
+      //   city: String
+      // }
     }
 </script>
 
@@ -26,6 +31,7 @@
   .header
     display: flex
     line-height: .86rem
+    justify-content space-between
     align-items: center
     background: $bgcolor
     font-size: .3rem
@@ -36,7 +42,7 @@
       text-align: center
       font-size: .64rem
     .header-input
-      width: 5.4rem
+      flex 1
       line-height: .6rem
       border-radius: .06rem
       background: #fff
@@ -45,7 +51,7 @@
         padding: .04rem 0 0 .1rem
         font-size: .4rem
     .header-right
-      width: 1.28rem
+      min-width: 1.28rem
       padding: 0 0 0 .2rem
       .down-icon
         margin: -.1rem 0 0 -.2rem

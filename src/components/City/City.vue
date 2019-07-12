@@ -1,9 +1,18 @@
 <template>
-  <div>
+  <div class="city">
     <city-header></city-header>
-    <search></search>
-    <city-list :city="city"></city-list>
-    <alphabet :alphabet="alphabet"></alphabet>
+    <search :city="city"></search>
+    <city-list
+      :city="city"
+      :alphabet="alphabet"
+      :currentIndex="currentIndex"
+      @change="handleIndexChange"
+    ></city-list>
+    <alphabet
+      :alphabet="alphabet"
+      @change="handleAlphabetChange"
+    >
+    </alphabet>
   </div>
 </template>
 
@@ -24,7 +33,20 @@
     data () {
       return {
         city: [],
-        alphabet: []
+        alphabet: [],
+        currentIndex: 'A',
+      }
+    },
+    methods: {
+      handleAlphabetChange (Alphabet) {
+        if(!(this.currentIndex ===  Alphabet)){
+          this.currentIndex =  Alphabet
+        }
+      },
+      handleIndexChange (index) {
+        if(!(this.currentIndex ===  index)){
+          this.currentIndex =  index
+        }
       }
     },
     created () {
@@ -38,6 +60,7 @@
   }
 </script>
 
-<style scoped>
-
+<style lang="stylus" scoped>
+  .city
+    touch-action: manipulation
 </style>
